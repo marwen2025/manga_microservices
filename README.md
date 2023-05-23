@@ -5,30 +5,59 @@ This repository contains the implementation of various routes for managing categ
 
 # Category Routes
 # Get All Categories
+
 Endpoint: GET /s2/categories
+
 Description: Retrieves all categories from the database.
+
 Response: Returns an array of category objects.
+
 Get Category by ID
+
 Endpoint: GET /s2/category/:id
+
 Description: Retrieves a specific category based on the provided ID.
+
 Parameters: id - The ID of the category.
+
 Response: Returns a single category object.
+
 Create Category
+
 Endpoint: POST /s2/category
+
+
 Description: Adds a new category to the database.
-Request Body: Requires a JSON object with the name property representing the category name.
+
+Request Body: Requires a JSON object with the name property representing the category 
+name.
+
 Response: Returns a success message upon successful creation.
+
 Update Category
+
 Endpoint: PUT /s2/category/:id
+
 Description: Updates an existing category based on the provided ID.
+
 Parameters: id - The ID of the category.
-Request Body: Requires a JSON object with the name property representing the updated category name.
+
+Request Body: Requires a JSON object with the name property representing the updated 
+
+category name.
+
 Response: Returns a success message upon successful update.
+
 Delete Category
+
 Endpoint: DELETE /s2/category/:id
+
 Description: Deletes a category from the database based on the provided ID.
+
 Parameters: id - The ID of the category.
+
 Response: Returns a success message upon successful deletion.
+
 # Manga Routes
 # Get All Mangas
 Endpoint: GET /s1/mangas
