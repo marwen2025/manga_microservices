@@ -1,10 +1,10 @@
 # Manga_microservices_example
  
-#Routes
+# Routes
 This repository contains the implementation of various routes for managing categories and mangas in a web application. The routes are organized as follows:
 
-#Category Routes
-#Get All Categories
+# Category Routes
+# Get All Categories
 Endpoint: GET /s2/categories
 Description: Retrieves all categories from the database.
 Response: Returns an array of category objects.
@@ -29,8 +29,8 @@ Endpoint: DELETE /s2/category/:id
 Description: Deletes a category from the database based on the provided ID.
 Parameters: id - The ID of the category.
 Response: Returns a success message upon successful deletion.
-Manga Routes
-Get All Mangas
+# Manga Routes
+# Get All Mangas
 Endpoint: GET /s1/mangas
 Description: Retrieves all mangas from the database.
 Response: Returns an array of manga objects.
@@ -55,4 +55,7 @@ Endpoint: DELETE /s1/manga/:id
 Description: Deletes a manga from the database based on the provided ID.
 Parameters: id - The ID of the manga.
 Response: Returns a success message upon successful deletion.
+
+
+
 Feel free to explore and utilize these routes to manage categories and mangas in your web application.
