@@ -32,30 +32,58 @@ Response: Returns a success message upon successful deletion.
 # Manga Routes
 # Get All Mangas
 Endpoint: GET /s1/mangas
+
 Description: Retrieves all mangas from the database.
+
 Response: Returns an array of manga objects.
+
 Get Manga by ID
+
 Endpoint: GET /s1/manga/:id
+
 Description: Retrieves a specific manga based on the provided ID.
+
 Parameters: id - The ID of the manga.
+
 Response: Returns a single manga object.
+
 Create Manga
+
 Endpoint: POST /s1/manga
+
 Description: Adds a new manga to the database.
-Request Body: Requires a JSON object with the name, categoryId, and author properties representing the manga details.
+
+Request Body: Requires a JSON object with the name, categoryId, and author properties 
+representing the manga details.
+
 Response: Returns a success message upon successful creation.
+
 Update Manga
+
 Endpoint: PUT /s1/manga/:id
+
 Description: Updates an existing manga based on the provided ID.
+
 Parameters: id - The ID of the manga.
-Request Body: Requires a JSON object with the name, categoryId, and author properties representing the updated manga details.
+
+Request Body: Requires a JSON object with the name, categoryId, and author properties 
+representing the updated manga details.
+
 Response: Returns a success message upon successful update.
+
 Delete Manga
+
 Endpoint: DELETE /s1/manga/:id
+
 Description: Deletes a manga from the database based on the provided ID.
+
 Parameters: id - The ID of the manga.
+
 Response: Returns a success message upon successful deletion.
 
 
 
-Feel free to explore and utilize these routes to manage categories and mangas in your web application.
+
+Feel free to explore and utilize these routes to manage categories and mangas in your 
+
+web application.
