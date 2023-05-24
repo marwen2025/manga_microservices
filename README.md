@@ -110,7 +110,7 @@ Parameters: id - The ID of the manga.
 
 Response: Returns a success message upon successful deletion.
 
-# API Gateway - README
+# API Gateway 
 This repository contains an API Gateway implementation using Express.js and http-proxy-middleware library. The API Gateway acts as an intermediary between clients and microservices, allowing for centralized routing and proxying requests to the appropriate microservices based on defined routes.
 
 Setup
