@@ -110,7 +110,26 @@ Parameters: id - The ID of the manga.
 
 Response: Returns a success message upon successful deletion.
 
+# API Gateway - README
+This repository contains an API Gateway implementation using Express.js and http-proxy-middleware library. The API Gateway acts as an intermediary between clients and microservices, allowing for centralized routing and proxying requests to the appropriate microservices based on defined routes.
 
+Setup
+To get started, follow these steps:
+
+Install the required dependencies by running npm install in the project directory.
+
+Configure the routes and their corresponding microservice endpoints in the routes object located in the index.js file. Each route should be associated with the target URL of the microservice.
+
+Start the API Gateway server by running npm start. The server will listen on port 5003 by default, but you can modify it if needed.
+
+Usage
+Once the API Gateway is running, you can send requests to the defined routes, and the API Gateway will proxy those requests to the respective microservices. Here's an example of how to use the API Gateway:
+
+Ensure that the microservices are running on the specified ports (5000 for manga microservice and 5001 for category microservice).
+
+Open a web browser and navigate to http://localhost:5001/s2 to access the category microservice through the API Gateway. This will proxy the request to the category microservice and return the response.
+
+Similarly, open a web browser and navigate to http://localhost:5000/s1 to access the manga microservice through the API Gateway. The API Gateway will forward the request to the manga microservice and return the response.
 
 
 Feel free to explore and utilize these routes to manage categories and mangas in your 
